@@ -27,6 +27,20 @@ The software focuses on supporting:
 
 Hyperion is intended to complement existing identity providers and enterprise systems rather than replace them. Actual capabilities depend on the modules, integrations, and configuration present in the deployed version.
 
+## Technical Innovation and Enterprise Applications
+
+Overview and Problem Addressed
+
+Hyperion is designed to address the challenge of fragmented identity information across enterprise environments. It consolidates identity-related data from multiple sources to support identity governance, security analysis, and operational review. By bringing relevant identity information into a unified view, Hyperion helps reviewers identify stale or inconsistent accounts, understand privileged-user context, and conduct governance reviews with less reliance on manual, disconnected processes.
+
+Technical Approach and Architecture
+
+Hyperion combines identity visibility, governance workflows, and security-analysis capabilities within a modular architecture. Its frontend is built with React and TypeScript, while its backend uses Node.js and Express to support communication between application services and enterprise data sources. This modular design is intended to support the integration and extension of identity-related capabilities as requirements evolve. Hyperion is designed to complement existing enterprise systems rather than replace them, with available functionality dependent on the implemented modules and integrations.
+
+Enterprise Applications and Intended Use
+
+Hyperion is a fully developed software solution designed to support authorized enterprise identity-governance and security-review activities. Its capabilities include identity lifecycle review, privileged-user visibility, device intelligence, and the analysis of identity-related information across enterprise environments. By consolidating identity data from multiple sources, Hyperion enables organizations to improve visibility, support informed governance decisions, and streamline identity-related security and operational reviews. Its modular architecture supports integration with enterprise systems, with available functionality depending on the modules and integrations configured for each deployment.
+
 ## Key Capabilities
 
 Depending on the configured modules and connected data sources, Hyperion includes or is designed to support:
