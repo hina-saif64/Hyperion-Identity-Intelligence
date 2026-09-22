@@ -45,9 +45,40 @@ Verify individual capabilities against the current source code and configuration
 
 ## Architecture
 
-The following is a **conceptual architecture view** based on the repository structure and project description. It does not imply that every integration or data flow is enabled in every version.
+Hyperion uses a modular web-application architecture.
 
-![Hyperion conceptual architecture](docs/Hyperion_Architecture_Diagram.png)
+```text
+                    ┌──────────────────────┐
+                    │      Web Client      │
+                    │   React / TypeScript │
+                    └──────────┬───────────┘
+                               │
+                               ▼
+                    ┌──────────────────────┐
+                    │   Application/API    │
+                    │   Node.js / Express  │
+                    └──────────┬───────────┘
+                               │
+              ┌────────────────┼────────────────┐
+              │                │                │
+              ▼                ▼                ▼
+        ┌───────────┐    ┌───────────┐    ┌───────────┐
+        │ Identity  │    │ Security  │    │ Governance│
+        │ Services  │    │ Services  │    │ Services  │
+        └─────┬─────┘    └─────┬─────┘    └─────┬─────┘
+              │                │                │
+              └────────────────┼────────────────┘
+                               │
+                               ▼
+                    ┌──────────────────────┐
+                    │ Integration / Gateway│
+                    │       Layer          │
+                    └──────────┬───────────┘
+                               │
+              ┌────────────────┼────────────────┐
+              │                │                │
+              ▼                ▼                ▼
+        Active Directory   Exchange       Cloud Services
 
 At a high level:
 - **Web interface:** React/TypeScript application experience.
