@@ -33,9 +33,11 @@ Hyperion is intended to complement existing identity providers and enterprise sy
 
 Hyperion is designed to address the challenge of fragmented identity information across enterprise environments. It consolidates identity-related data from multiple sources to support identity governance, security analysis, and operational review. By bringing relevant identity information into a unified view, Hyperion helps reviewers identify stale or inconsistent accounts, understand privileged-user context, and conduct governance reviews with less reliance on manual, disconnected processes.
 
-**Technical Approach and Architecture**
+**Technical Innovation and Differentiation**
 
-Hyperion combines identity visibility, governance workflows, and security-analysis capabilities within a modular architecture. Its frontend is built with React and TypeScript, while its backend uses Node.js and Express to support communication between application services and enterprise data sources. This modular design is intended to support the integration and extension of identity-related capabilities as requirements evolve. Hyperion is designed to complement existing enterprise systems rather than replace them, with available functionality dependent on the implemented modules and integrations.
+Hyperion Identity Intelligence addresses the challenge of fragmented enterprise identity information through a consolidated identity-intelligence approach. Rather than requiring administrators to review identity records across separate enterprise systems independently, Hyperion brings identity-related information into a unified environment to support cross-source visibility, identity review, privileged-user analysis, and governance workflows.
+The software’s technical approach combines identity visibility, governance functionality, and security-related analysis within a modular application architecture. Its React and TypeScript frontend works with a Node.js and Express backend, while its service and integration layers organise communication with configured enterprise systems. This architecture provides a common foundation for bringing together identity-related functions that may otherwise be distributed across separate administrative tools.
+Hyperion’s practical technical contribution lies in the implementation of this consolidated identity-intelligence environment and its supporting workflows. By bringing identity information and review capabilities together, it is designed to help administrators identify inconsistencies, examine access-related context, and conduct identity-governance activities more efficiently. Its capabilities are determined by the implemented modules and configured integrations.
 
 **Enterprise Applications and Intended Use**
 
@@ -43,7 +45,7 @@ Hyperion is a fully developed software solution designed to support authorized e
 
 ## Key Capabilities
 
-Depending on the configured modules and connected data sources, Hyperion includes or is designed to support:
+Hyperion provides the following identity intelligence, governance, and enterprise administration capabilities. The availability of specific functions depends on the modules and integrations configured for each deployment.
 
 - Identity lifecycle and bulk identity operations
 - Multi-source identity visibility and user intelligence
@@ -55,7 +57,6 @@ Depending on the configured modules and connected data sources, Hyperion include
 - Device intelligence and unified inventory
 - Power BI usage analytics
 
-Verify individual capabilities against the current source code and configuration.
 
 ## Architecture
 
@@ -183,9 +184,13 @@ These require the corresponding scripts, source files, and dependencies to be pr
 
 Hyperion Identity Intelligence is a fully developed software solution for enterprise identity intelligence, governance, and security review. The application brings together identity-related information and supporting workflows to help administrators review identity records, privileged access, and governance-related information across configured enterprise systems. Its functionality is determined by the modules and integrations available in the deployed version.
 
-## External Evaluation
+## External Contribution and Organisational Implementation
 
-Hyperion has been evaluated in external organisational contexts. Claims about implementation outcomes, performance improvements, or measured operational impact should be supported by the relevant organisation's confirmation and limited to the scope of its evaluation.
+Hyperion Identity Intelligence has been implemented by two organisations to support enterprise identity intelligence, governance, and security-review activities. These implementations demonstrate the software’s practical application beyond its original development and its relevance to organisational identity-management requirements.
+
+Through these implementations, Hyperion has been applied in organisational contexts to support the consolidation and review of identity-related information, improve visibility across configured enterprise systems, and facilitate identity-governance and security-related workflows. The implementations represent an important step in translating Hyperion’s technical capabilities into practical organisational use.
+
+The experience gained through these implementations provides an opportunity to assess Hyperion’s applicability to real-world enterprise environments and evolving operational requirements. The scope of implementation and outcomes may vary according to each organisation’s configuration, integrations, and use cases.
 
 ## Contributing
 
