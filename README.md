@@ -213,3 +213,15 @@ See the repository's `LICENSE` file for applicable license terms. If no `LICENSE
 Hina Saif
 
 GitHub: https://github.com/hina-saif64
+
+# My Software Project
+
+Copyright (c) 2026 [Hina Saif].
+
+All rights reserved.
+
+No permission is granted to copy, redistribute, modify, or
+commercially use this software without written permission
+from the copyright owner.
+
+
