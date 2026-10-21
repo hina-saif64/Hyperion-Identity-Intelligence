@@ -214,7 +214,6 @@ Hina Saif
 
 GitHub: https://github.com/hina-saif64
 
-# My Software Project
 
 Copyright © 2026 Hina Saif. All rights reserved. See LICENSE
 
