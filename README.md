@@ -216,12 +216,5 @@ GitHub: https://github.com/hina-saif64
 
 # My Software Project
 
-Copyright (c) 2026 [Hina Saif].
-
-All rights reserved.
-
-No permission is granted to copy, redistribute, modify, or
-commercially use this software without written permission
-from the copyright owner.
-
+Copyright © 2026 Hina Saif. All rights reserved. See LICENSE
 
